@@ -1,0 +1,67 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sc-1 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+  }
+  
+  
+  .sc-2 {
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: center;
+    padding:30px;
+  }
+  
+  
+  .counter-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  
+  
+  i {
+    font-size: 40px;
+  }
+  
+  
+  .fa-youtube {
+    color: #FF0D00;
+  }
+  
+  
+  .fa-twitter {
+    color: #1EA1F2;
+  
+  }
+  
+  
+  .fa-facebook-f {
+    color: #1877F2;
+  }
+  
+  
+  .counter {
+    font-size: 50px;
+    margin: 30px 0;
+  }
+  
+  
+  @media (max-width: 650px) {
+    .sc-2 {
+      grid-template-columns: 1fr;
+    }
+  }
